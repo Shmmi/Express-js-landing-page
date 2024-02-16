@@ -1,0 +1,158 @@
+body{
+    margin: 0px;
+   
+    color: aliceblues;
+    height: 1000px;
+}
+nav{
+    background-color: brown;
+    margin-top: 0px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+header{
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    
+}
+button{
+    border: none;
+    background-color: brown;
+    color: aliceblue;
+    padding: 8px;
+    font-size: large;
+    margin-right: 5px;
+   
+}
+button:hover{
+    background-color: black;
+}
+h1{
+    color: aliceblue;
+    font-size: 4rem;
+}
+h3{
+    color:red;
+    justify-content: center;
+    margin-top: -35px;
+    margin-left: 115px;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 2rem;
+}
+.container{
+    /*display: inline-block;*/
+    margin-left: 350px;
+    margin-top: 0px;
+    
+    padding: 50px;
+    width: 450px;
+}
+.s1{
+    background-color: black;
+    width: auto;
+}
+.s2{
+    background-color: rgb(55, 52, 137);
+    height: 900px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+.s2h1{
+    margin-left: 155px;
+    margin-top: 15px;
+    text-decoration: underline;
+}
+.p3{
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    margin-right: 90px;
+    
+    grid-column-gap: 270px;
+}
+.item{
+    /*background-color: rgb(130, 109, 109);*/
+     background-color: rgb(65, 57, 57);
+    margin-bottom: 20px;
+    
+    width: 250px;
+}
+
+.p3 img{
+height: 250px;
+width: 250px;
+margin-bottom: 30px;
+}
+.item p{
+    text-align: center;
+    color: aliceblue;
+}
+.show{
+    background-color: rgb(65, 57, 57);
+    padding: 7px;
+    width: 140px;
+    margin-left: 530px;
+}
+.show:hover{
+    background-color:brown;
+}
+.s3{
+    background-color: rgb(65, 57, 57);
+    height: 400px;
+    margin-top: 0px;
+    padding-top: 10px;
+}
+.d1{
+    margin-left: 270px;
+    color: aliceblue;
+    justify-content: center;
+}
+.d1 h4{
+    font-style: italic;
+    margin-top: -30px;
+    margin-left: 200px;
+}
+footer {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.social-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-link i {
+    margin-right: 8px;
+}
+
+.social-link:hover {
+    color:brown;
+}
+.line{
+    height: 6px;
+    color: brown;
+    background-color: brown;
+    width: 1190px;
+    margin-top: 60px;
+    border-style: none;
+}
+.last{
+    margin-left: 0px;
+    margin-top: 50px;
+}
+html {
+    scroll-behavior: smooth;
+}
